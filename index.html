@@ -3,7 +3,7 @@
 	<meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" type="text/css" href="cc.css" />
-  <!--<script src="matter.js"></script> -->
+  <script src="cc.js"></script>
 </head>
 <main>
 <!--tab system: home with photo sample and small about, photos, contact/about
@@ -13,34 +13,38 @@ possible sidebar
 <div class="divvs" id="topBar">
 <h1> Corwind Burton-Kmetz</h1>
 <h2> Craftsman Bartender</h2>
-<!-- capture the moments that make life great//Matter-->
+<!-- capture the moments that make life great, with a great drink-->
 </div>
 <div class="divvs" id="toolsbar">
 	<div class="divvs" id="spacerDiv"></div>
 	<div class="divvs" id="selectionDiv">
 		<button onclick="but1()" class="buttons" id="homeButton">HOME</button>
 		<button onclick="but2()" class="buttons" id="galleryButton">GALLERY</button>
+		<div class="aboutDrop">
 		<button onclick="but3()" class="buttons" id="aboutButton">ABOUT</button>
+		<div class="aboutDropContent">
+		<button onclick="aboutBut1()" class="buttons" id="aboutBut1">RESUME</button>
+		<button onclick="aboutBut2()" class="buttons" id="aboutBut2">ABOUT</button>
+		</div>
+		</div>
 		<button onclick="but4()" class="buttons" id="contactButton">CONTACT</button>
 		<button onclick="but5()" class="buttons" id="colorButton">LIGHT MODE</button>
 	</div>
 	<div class="divvs" id="quizDiv">
-		<p>Not sure what style you like most?   </p>
-		<button onclick="but6()" class="buttons" id="quizButton">Take The Quiz!</button>
 	</div>
 </div>
 <body onload="getPictures()">
 <div class="divvs" id="content">
 <div class="contentDiv" id="homePage">
 <div class="innerContentDiv" id="home0">
-	<img scr="Matterpic.jpg" alt="Picture of Mr.Matter during photoshoot">
+	<img scr="Matterpic.jpg" alt="Picture of me bartending">
 </div>
 <div class="innerContentDiv" id="home1">
-<!-- intro to Mr.Matter-->
+<!-- biograpgh-->
 <p>		A Milwaukee based professional in the field of Hospitality since 2018.
-	<br>	DrkMatter has provided perfection for clients ranging from models to top 5 charters on iTunes.<!--such as"""-->
-	<br>    From the photoshoot to the editing, all work is done in house for maximum quality control.
-	<br>	We would be ecstatic to capture your vision. So contact us today!
+	<br>	I take great pride in creating unique experiences, both Drinks and Events.<!--such as"""-->
+	<br>    Specialized in banquets as event leadership and event management.
+	<br>	But my love has always been towards bartending.
 	</p>
 </div>
 </div>
@@ -52,19 +56,17 @@ possible sidebar
 <div class="contentDiv" id="aboutPage">
 <div class="innerContentDiv" id ="about0">
 <!-- a picture of him-->
-<img scr="siteBaseImgs/matterPic.jpg" alt="Picture of Mr.Matter">
+<img scr="siteBaseImgs/matterPic.jpg" alt="Picture of Me">
 </div>
 <div class="innerContentDiv" id ="about1">
 <!--Mr.Matter bio-->
-
-<!--
-<p> 	My name is Mattar, literally Mattar. 
-<br>	Born and made in Milwaukee Wisconsin I Have been a professional in the field of photography since the year 2018. 
-<br>	I mainly work with independent artists, with some of my clients placing top 5 on the iTunes charts. 
-<br>	I grew up on the east side of Milwaukee, which is also where my photography is based. 
-<br>	I specalize in otherworldly and natural photography, but capable of fulfilling any request.
-<br>    From the photoshoot to the editing I take care of all work personally, and would be ecstatic to capture your Vision.</p>	
-   -->
+<p> 		Heya! My name is Corwind Burton-Kmetz, I tend to go by CC.
+<br>	Raised in Milwaukee Wisconsin, I first started my career in 2018, as a banquet server and bartender. 
+<br>	My most recent job of import was 2023 when I was an assistant Director of food and beverage.
+<br>	During my time there I helped to direct our teams to set and service (up to) Ballroom sized (9,900 ft²) event spaces.
+<br>    Unfortunately after an injury I was no longer able to fulfill my duties, and left the company.
+<br>	Since my recovery i’m back to doing what made me love the service industry in the first place, Bartending.
+</p>
 </div>
 </div>
 <div class="contentDiv" id="contactPage">
@@ -90,4 +92,4 @@ possible sidebar
 </body>
 </main>
 
-</html>
+</html>vvvvvvvvvvvvvvvvv
