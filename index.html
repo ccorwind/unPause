@@ -1,0 +1,97 @@
+<DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="cc.css" />
+  <!--<script src="matter.js"></script> -->
+</head>
+<main>
+<!--tab system: home with photo sample and small about, photos, contact/about
+bottom of tabs lead to the next home -> porfolio-> contact/about
+possible sidebar
+-->
+<div class="divvs" id="topBar">
+<h1> Corwind Burton-Kmetz</h1>
+<h2> Craftsman Bartender</h2>
+<!-- capture the moments that make life great//Matter-->
+</div>
+<div class="divvs" id="toolsbar">
+	<div class="divvs" id="spacerDiv"></div>
+	<div class="divvs" id="selectionDiv">
+		<button onclick="but1()" class="buttons" id="homeButton">HOME</button>
+		<button onclick="but2()" class="buttons" id="galleryButton">GALLERY</button>
+		<button onclick="but3()" class="buttons" id="aboutButton">ABOUT</button>
+		<button onclick="but4()" class="buttons" id="contactButton">CONTACT</button>
+		<button onclick="but5()" class="buttons" id="colorButton">LIGHT MODE</button>
+	</div>
+	<div class="divvs" id="quizDiv">
+		<p>Not sure what style you like most?   </p>
+		<button onclick="but6()" class="buttons" id="quizButton">Take The Quiz!</button>
+	</div>
+</div>
+<body onload="getPictures()">
+<div class="divvs" id="content">
+<div class="contentDiv" id="homePage">
+<div class="innerContentDiv" id="home0">
+	<img scr="Matterpic.jpg" alt="Picture of Mr.Matter during photoshoot">
+</div>
+<div class="innerContentDiv" id="home1">
+<!-- intro to Mr.Matter-->
+<p>		A Milwaukee based professional in the field of photography since 2018.
+	<br>	DrkMatter has provided perfection for clients ranging from models to top 5 charters on iTunes.<!--such as"""-->
+	<br>    From the photoshoot to the editing, all work is done in house for maximum quality control.
+	<br>	We would be ecstatic to capture your vision. So contact us today!
+	</p>
+</div>
+</div>
+<div class="contentDiv" id="galleryPage">
+<div class="innerContentDiv" id ="gallery0">
+	
+</div>
+</div>
+<div class="contentDiv" id="aboutPage">
+<div class="innerContentDiv" id ="about0">
+<!-- a picture of him-->
+<img scr="siteBaseImgs/matterPic.jpg" alt="Picture of Mr.Matter">
+</div>
+<div class="innerContentDiv" id ="about1">
+<!--Mr.Matter bio-->
+<p> 	Hello! My name is Mattar, simply Mattar. 
+<br>	Born and made in Milwaukee Wisconsin I Have been a professional in the field of photography since the year 2018. 
+<br>	I have worked with independent artists that have placed top 5 on the iTunes charts. 
+<br>	I grew up on the east side of Milwaukee, which is also where my photography is based. 
+<br>	I perform a mix between otherworldly and natural photography, I self-capture and edit all of my work, and would be ecstatic to capture you in my image.</p>
+<!--
+<p> 	My name is Mattar, literally Mattar. 
+<br>	Born and made in Milwaukee Wisconsin I Have been a professional in the field of photography since the year 2018. 
+<br>	I mainly work with independent artists, with some of my clients placing top 5 on the iTunes charts. 
+<br>	I grew up on the east side of Milwaukee, which is also where my photography is based. 
+<br>	I specalize in otherworldly and natural photography, but capable of fulfilling any request.
+<br>    From the photoshoot to the editing I take care of all work personally, and would be ecstatic to capture your Vision.</p>	
+   -->
+</div>
+</div>
+<div class="contentDiv" id="contactPage">
+	<div class="innerContactDiv" id ="contact0">
+	<form>
+	<label for="nameContact">Name: </label>
+	<input type="text" id="nameContact" name="nameContact"><br>
+	<label for="emailContact">Email: </label>
+	<input type="email" id="emailContact" name="emailContact"><br>
+	<label for="numberContact">Number: </label>
+	<input type="tel" id="numberContact" name="numberContact"><br>
+	</form>
+	<button onclick="contactSubmit()" class="buttons" id="submitButton">SUBMIT FORM</button>
+</div>
+<div class="innerContentDiv" id ="contact1">
+
+
+</div>
+
+</div>
+
+</div>
+</body>
+</main>
+
+</html>
